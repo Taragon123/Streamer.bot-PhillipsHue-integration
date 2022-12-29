@@ -1,5 +1,5 @@
-This project requires a PhillipsHue bridge and works best if the bridge has been given a static IP.
-In addition, if the PC the script is running on has a static IP, you'll be able to use the API from any device on the local network.
+This project requires a PhillipsHue bridge and works best if the bridge has been given a static IP. (If it doesn't use a static IP, you'll need to update this project to add some fancy stuff to get the IP automatically and all that.
+   In addition, if the PC the script is running on has a static IP, you'll be able to use the API from any device on the local network.
 
 The API would *ideally* use POST requests, but to work with [streamerbot](https://streamer.bot/) it uses GET requests and URL params instead.
     As a side product of this, using # in in the colour definition doesn't work due to URL encoding, but '%23' does XD
